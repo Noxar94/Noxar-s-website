@@ -1,0 +1,143 @@
+body, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: 300;
+  background:url(pictures/Background-csgo.png);
+  background-size: cover;
+
+  
+}
+
+.welcome {
+  text-align: center;
+  color: rgb(190, 30, 30);
+  font-family: Ink Free;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  
+  
+}
+
+.fa-twitch {
+  background: purple;
+  color: rgb(255, 255, 255);
+
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 17px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 5px;
+  border-radius: 50%;
+  margin-top: 24px;
+}
+
+.fa:hover {
+  opacity: 60%
+  
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+
+
+}
+
+header {
+  background-color: rgb(28, 27, 34);
+  
+  
+  
+
+}
+header::after {
+
+content: '';
+display: table;
+clear: both;
+
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  font-size: 52px;
+  font-family: InkFree;
+  color: rgb(198, 198, 230);
+  margin-right: 10px;
+}
+  
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 40px;
+
+  position: relative;
+}
+
+nav a{
+  color: rgb(198, 198, 230);
+  text-decoration: none;
+  text-transform:uppercase;
+  font-weight: bold;
+  font-family: Ink Free;
+  font-size: 30px;
+
+  
+}
+
+nav a:hover {
+  color: rgb(134, 6, 6);
+  
+}
+
+nav a::before {
+  content:'';
+  display: block;
+  border-radius: 5px;
+  height: 10px;
+  width: 100%;
+  background-color: rgb(134, 6, 6);
+  
+
+  position: absolute;
+  top:  0;
+  opacity: 0%;
+
+  
+}
+
+nav a:hover::before {
+  opacity: 100%;
+  transition: 1s;
+  
+}
