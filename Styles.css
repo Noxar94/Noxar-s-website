@@ -7,7 +7,29 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  color: rgb(212, 138, 138);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 100;
   
+}
+
+.ul-computerspecs {
+  color: rgb(134, 6, 6);
+  font-size: 30px;
+  padding-top: 20px;
+  padding-left: 40px;
+  float: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ul-setupspecs {
+  color: rgb(134, 6, 6);
+  font-size: 30px;
+  padding-top: 20px;
+  padding-right: 40px;
+  float: right;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  list-style-position: right;
 }
 
 .welcome {
