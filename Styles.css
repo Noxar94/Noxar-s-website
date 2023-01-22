@@ -14,6 +14,25 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
+p {
+  color: rgb(198, 198, 230);
+  font-family: 'Inconsolata';
+  font-weight: 300;
+  padding: 10px;
+  font-size: 30px;
+  letter-spacing: 2;
+}
+
+.p-specs {
+  text-align: center;
+  
+}
+
+.img-specs {
+  margin: 20px;
+  
+}
+
 .ul-computerspecs {
   color: rgb(134, 6, 6);
   font-size: 30px;
@@ -147,9 +166,10 @@ border-radius: 50px;
 box-sizing: border-box;
 
 }
+
 .container-specs {
-  width: 700px;
-  height: 250px;
+  width: 1200px;
+  height: 1000px;
   border: 1px solid rgb(134, 6, 6);
   margin: 0 auto;
   background-color: rgb(21, 21, 31);
@@ -194,7 +214,7 @@ clear: both;
   color: rgb(198, 198, 230);
   margin-right: 10px;
   letter-spacing: 5px;
-  text-shadow: 5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: 6px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 nav {
@@ -222,8 +242,8 @@ nav a{
   text-transform:uppercase;
   font-family: 'Cinzel', serif;
   font-size: 30px;
-  letter-spacing: 5px;
-  text-shadow: 5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  letter-spacing: 2px;
+  text-shadow: 6px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
   
 }
@@ -253,7 +273,7 @@ nav a::before {
 }
 
 nav a:hover::before {
-  opacity: 100%;
+  opacity: 30%;
   transition: 1s;
   
 }
