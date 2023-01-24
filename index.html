@@ -1,33 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noxar's Site</title>
+
   <!--Start of Stylelinks and fonts-->
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500&display=swap" rel="stylesheet">
-  <!--End of Stylelinks and Fonts-->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>
-    
-    Noxar's Site
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 
-  </title>
-</head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+  <!--End of Stylelinks and Fonts-->  
+ </head>
 <body>
+  <header>
 
- <header>
+    <!--START of Sidebar-->
+  <div class="header1"></div>
+   <input type="checkbox" class="toggle-sidebar" id="toggle-sidebar">
+   <label for="toggle-sidebar" class="toggle-icon">
 
-
-
-  <!--Start of navigation-->
+    <div class="bar-top"></div>
+    <div class="bar-center"></div>
+    <div class="bar-bottom"></div>
+  </label>
+  
+  <div class="sidebar">
+    <div class="profile">
+      <img src="/Pictures/Jag.jpg" alt="profile picture">
+      <h3>Jonatan Lundmark</h3>
+      <ul>
+        <li><a href="#"><ion-icon name="logo-snapchat"></ion-icon></a></li>
+        <li><a href="#"></a><ion-icon name="logo-youtube"></ion-icon></li>
+        <li><a href="#"><ion-icon name="logo-twitch"></ion-icon></a></li>
+      </ul>
+    </div>
+    <ul class="sidebarmenu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Specs</a></li>
+      <li><a href="#">Stats</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </div>
+    <!--END of Sidebar-->
+    <!--Start of navigation-->
   
     <div class="container">
       
@@ -49,54 +67,21 @@
       </nav>
     </div>
   <!--End of navigation-->
-  
-    <!--START of Sidebar-->
-    <input type="checkbox" class="toggle-sidebar" id="toggle-sidebar">
-    <label for="toggle-sidebar" class="toggle icon">
-     <div class="bar-top"></div>
-     <div class="bar-center"></div>
-     <div class="bar-bottom"></div>
-    </label>
-  
-  
-   <div class="sidebar">
-     <div class="profile">
-       <img src="/pictures/Jag.jpg" alt="">
-       <h3>jonatan Lundmark</h3>
-       <ul>
-          <a href="https://www.youtube.com/channel/UCnL8tGR9Zb_JGlytPT6XBOg" class="fa fa-youtube"></a>
-          <a href="https://www.snapchat.com/add/noxar?share_id=NXg1Vjm9oZI&locale=sv-SE" class="fa fa-snapchat-ghost"></a>
-          <a href="https://www.twitch.tv/noxar1223" class="fa fa-twitch"></a>
-      </ul>
-   </div>
-   <ul class="sidebarmenu">
-     <li><a href="#">Home</a></li>
-     <li><a href="#">Stats</a></li>
-     <li><a href="#">Specs</a></li>
-     <li><a href="#">Contact</a></li>
-     <li><a href="#">About</a></li>
-    </ul>
-   </div>
-    <!--END of Sidebar-->
 </header>
-
-<h1 class="welcome">Welcome to my site!</h1>
-
-  <center><!--Start of Homepage video-->
-    <iframe width="1000" height="500" 
-      src="https://www.youtube.com/embed/playlist?list=PL1FNchyJ_cX7UaVXniAhVPp1P_UIjFzVT&loop=1&autoplay=1&mute=1," frameborder="0" allowfullscreen>
-    </iframe>
-  </center><!--End of Homepage video-->
 
 <main>
 
   <section>
-    <ul>
-      <li>
-        
-      </li>
-    </ul>
+    <h1 class="welcome">Welcome to my site!</h1>
+
+    <center><!--Start of Homepage video-->
+      <iframe width="1000" height="500" 
+        src="https://www.youtube.com/embed/playlist?list=PL1FNchyJ_cX7UaVXniAhVPp1P_UIjFzVT&loop=1&autoplay=1&mute=1," frameborder="0" allowfullscreen>
+      </iframe>
+    </center><!--End of Homepage video-->
+
   </section>
+  <p>I've played csgo for about 5k hours and before Counter-strike Global offencive i played Cs 1.6</p>
 
   <section>
 

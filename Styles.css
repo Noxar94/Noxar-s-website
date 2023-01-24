@@ -9,6 +9,7 @@ body {
   margin: 0;
   background:url(pictures/Background-csgo.png);
   background-size: cover;
+  font-family: 'Cinzel', serif;
 
   
 }
@@ -28,6 +29,7 @@ p {
   padding: 10px;
   font-size: 30px;
   letter-spacing: 2;
+  text-align: center;
 }
 
 .p-specs {
@@ -37,6 +39,7 @@ p {
 
 .img-specs {
   margin: 20px;
+  float: right;
    
 }
 
@@ -53,7 +56,7 @@ p {
   color: rgb(134, 6, 6);
   font-size: 30px;
   padding-top: 20px;
-  padding-right: 40px;
+  padding-left: 40px;
   float: left;
   font-family: 'Cinzel', serif;
   
@@ -75,6 +78,10 @@ p {
   color:  rgb(198, 198, 230);
   font-family: 'inconsolata';
   font-size: 22px;
+  display: inline-block;
+  margin: 5px;
+  padding-left: 40px;
+  padding-top: 20px;
   
 
 }
@@ -106,61 +113,20 @@ p {
 }
 
 .spec-titel {
-  text-align: left;
+  text-align: center;
   color: rgb(134, 6, 6);
   font-family: 'Cinzel', serif;
   font-size: 50px;
-  margin-top: 50px;
-  margin-bottom: 5px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  margin-left: 500px;
   letter-spacing: 5px;
   text-shadow: 5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   padding-top: 50px;
 
 }
 
-.fa-twitch {
-  background: purple;
-  color: rgb(255, 255, 255);
-
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-  
-  
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.fa {
-  padding: 10px;
-  font-size: 30px;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-  margin: 10px 5px;
-  border-radius: 40%;
-  margin-top: 24px;
-}
-
-.fa:hover {
-  opacity: 60%
-  
-  
-
-}
-
 .container {
   width: 80%;
   margin: 0 auto;
+  
     
 }
 
@@ -176,10 +142,10 @@ box-sizing: border-box;
 }
 
 .container-specs {
-  width: 1200px;
+  width: 1100px;
   height: 1000px;
   border: 1px solid rgb(134, 6, 6);
-  margin: 0 auto;
+  margin: 10px;
   background-color: rgb(21, 21, 31);
   border-radius: 50px;
   box-sizing: border-box;
@@ -187,10 +153,10 @@ box-sizing: border-box;
 }
 
 .container-specs2 {
-  width: 1300px;
+  width: 1100px;
   height: 1000px;
   border: 1px solid rgb(134, 6, 6);
-  margin: 0 auto;
+  margin: 10px;
   background-color: rgb(21, 21, 31);
   border-radius: 50px;
   box-sizing: border-box;
@@ -199,16 +165,18 @@ box-sizing: border-box;
 }
 
 header {
-  background-color: rgb(28, 27, 34);
+  background-color: #1c1b22b3;
   width: 100%;
+  height: 100px;
+  
 }
 
 .header1 {
-  background-color: rgb(60, 36, 194);
-  width: 5%;
-  height: 60px; /* FIXA så knappen till checkboxen funkar */
+  background: #1c1b22b3;
+  width: 100%;
+  height: 100px; /* FIXA så knappen till checkboxen funkar */
   position: fixed;
-  
+  opacity: 0%;
 }
 header::after {
 
@@ -228,7 +196,7 @@ clear: both;
   letter-spacing: 5px;
   text-shadow: 6px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
+/*Navbar START*/
 nav {
   float: right;
 }
@@ -256,6 +224,7 @@ nav a{
   font-size: 30px;
   letter-spacing: 2px;
   text-shadow: 6px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
   
   
 }
@@ -289,16 +258,18 @@ nav a:hover::before {
   transition: 1s;
   
 }
+/*Navbar END*/
+
 /*Side bar and profile START */
 
 .sidebar {
-  background: rgb(28, 27, 34);
+  background: #1c1b22;
   height: 100%;
   width: 300px;
   position: fixed;
   margin-top: 100px;
   transform: translateX(-250%);
-  transition: transform 250ms ease-in-out;
+  transition: transform 300ms ease-in-out;
 
 }
 
@@ -310,7 +281,7 @@ nav a:hover::before {
 }
 
 .profile h3 {
-  margin: 10px;
+  margin: 10px 0;
   font-size: 22px;
   font-family:'Cinzel', serif;
 }
@@ -322,6 +293,7 @@ nav a:hover::before {
   font-size: 20px;
   padding: 10px;
   transition: all 0.5s;
+  block-size: 40px;
 }
 
 .profile a {
@@ -330,6 +302,8 @@ nav a:hover::before {
 
 .profile li:hover {
   background: rgb(134, 6, 6);
+  transform: rotate(360deg)
+
 
 }
 
@@ -348,19 +322,22 @@ border: 3px solid rgb(134, 6, 6);
   display: block;
   text-transform: uppercase;
   padding: 20px;
-  border-bottom: 1px solid rgb(198, 198, 230, 0.10);
+  border-bottom: 2px solid rgb(10, 9, 9);
+  text-align: center;
+  font-size: 20px;
+  
 }
 
 .sidebarmenu li a:hover{
-  background: black;
+  background: #1c1b22b3;
   color: rgb(134, 6, 6);
   transition: all 0.3s;
 }
 
 .toggle-icon div{
-  background: rgb(255, 255, 255);
+  background: rgb(134, 6, 6);
   width: 100%;
-  height: 5px;
+  height: 3px;
 
 }
 
@@ -372,7 +349,8 @@ border: 3px solid rgb(134, 6, 6);
   height: 22px;
   z-index: 9999;
   cursor: pointer;
-  transition: all 0.3;
+  transition: all 1;
+  
 }
 
 .bar-center{
@@ -381,10 +359,11 @@ border: 3px solid rgb(134, 6, 6);
 
 input[type="checkbox"]:checked ~ .sidebar{
   transform: translateX(0);
+  
 }
 
 input[type="checkbox"]:checked ~ .toggle-icon> .bar-top{
-  transform: rotate(180deg);
+  transform: rotate(135deg);
   margin-top: 8px;
 }
 
@@ -393,6 +372,10 @@ input[type="checkbox"]:checked ~ .toggle-icon> .bar-center{
 }
 
 input[type="checkbox"]:checked ~ .toggle-icon> .bar-bottom{
-  transform: rotate(180deg);
-  margin-top: -8px;
+  transform: rotate(-135deg);
+  margin-top: -12px;
 }
+
+
+
+/*Sidebar END*/
